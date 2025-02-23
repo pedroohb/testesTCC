@@ -1,7 +1,7 @@
 body{
     font-family: "Noto Sans", serif;
     margin: 0;
-    background-image: url("../images/folhas.jpg");
+    background-image: url("../../images/folhas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
