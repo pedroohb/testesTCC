@@ -1,0 +1,80 @@
+body{
+    font-family: "Noto Sans", serif;
+    margin: 0;
+    background-image: url("../images/folhas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p{
+    margin: 0;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+button{
+    width: 310px;
+    height:35px;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    background-color: #749833;
+    border-radius: 5px;
+    border-style: none;
+}
+button:active {
+    box-shadow: inset 0px 0px 5px #020000;
+    outline: none;
+}
+
+a{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/** header styles **/
+.logo{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.header{
+    padding: 16px;
+    background-color: #324216;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links{
+    padding-right: 20px; 
+    gap: 25px;
+    display: flex;
+    align-items: center;
+}
+.header-links a{
+    font-size: 18px;
+    color: white;
+}
+
+/** login section styles**/
+.body{
+    background-color: #F2F2F2;
+    gap: 16px;
+    width: 300px;
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
